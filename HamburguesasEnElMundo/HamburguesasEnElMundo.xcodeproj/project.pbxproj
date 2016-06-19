@@ -12,6 +12,7 @@
 		DEEC9C531D170972004A1180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEC9C511D170972004A1180 /* Main.storyboard */; };
 		DEEC9C551D170972004A1180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEC9C541D170972004A1180 /* Assets.xcassets */; };
 		DEEC9C581D170972004A1180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEC9C561D170972004A1180 /* LaunchScreen.storyboard */; };
+		DEEC9C631D170C20004A1180 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC9C621D170C20004A1180 /* Datos.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		DEEC9C541D170972004A1180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEEC9C571D170972004A1180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEEC9C591D170972004A1180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEC9C611D170BD3004A1180 /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; };
+		DEEC9C621D170C20004A1180 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +57,24 @@
 		DEEC9C4C1D170972004A1180 /* HamburguesasEnElMundo */ = {
 			isa = PBXGroup;
 			children = (
+				DEEC9C5F1D170BB5004A1180 /* Playgrounds */,
 				DEEC9C4D1D170972004A1180 /* AppDelegate.swift */,
 				DEEC9C4F1D170972004A1180 /* ViewController.swift */,
+				DEEC9C621D170C20004A1180 /* Datos.swift */,
 				DEEC9C511D170972004A1180 /* Main.storyboard */,
 				DEEC9C541D170972004A1180 /* Assets.xcassets */,
 				DEEC9C561D170972004A1180 /* LaunchScreen.storyboard */,
 				DEEC9C591D170972004A1180 /* Info.plist */,
 			);
 			path = HamburguesasEnElMundo;
+			sourceTree = "<group>";
+		};
+		DEEC9C5F1D170BB5004A1180 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				DEEC9C611D170BD3004A1180 /* Test.playground */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +148,7 @@
 			files = (
 				DEEC9C501D170972004A1180 /* ViewController.swift in Sources */,
 				DEEC9C4E1D170972004A1180 /* AppDelegate.swift in Sources */,
+				DEEC9C631D170C20004A1180 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

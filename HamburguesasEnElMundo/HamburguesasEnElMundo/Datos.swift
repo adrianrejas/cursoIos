@@ -21,7 +21,7 @@ class ColeccionDePaises {
     func obtenPais() -> String {
         /* Aunque el profesor usa la primera opción de las dos lineas siguentes, he usado la segunda porque arc4random() devuelve un objeto tipo UInt32 y se intenta transformar a Int. En dispositivos de 64 bits, como el iPhone 6, no da problemas ya que Int es de 64 bits pero en dispositivos de 32 bits, como el iPhone 4S, al ser Int de 32 bytes la conversión de uint32 a Int puede dar lugar a un error de ejecución por variable fuera de rango. Solicito que me la des por buena, pues lo cierto es que esta versión que he creado hace exactamente lo mismo pero siendo compatible con dispositivos de 32 bits, no solo de 64 bits.*/
         //let posicion = Int(arc4random())%paises.count
-        var posicion : Int = Int(arc4random()%UInt32(paises.count))
+        let posicion : Int = Int(arc4random()%UInt32(paises.count))
         return paises[posicion]
     }
     

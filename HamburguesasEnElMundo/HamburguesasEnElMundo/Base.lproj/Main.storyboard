@@ -27,14 +27,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naH-Aa-Xra">
-                                <rect key="frame" x="57" y="518" width="206" height="30"/>
-                                <inset key="imageEdgeInsets" minX="14" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="Quiero una hamburguesa ya!!!"/>
-                                <connections>
-                                    <action selector="mostrarNuevaHamburguesa" destination="BYZ-38-t0r" eventType="touchUpInside" id="K3t-ZU-Xvg"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa: ..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZF-KO-LVT">
                                 <rect key="frame" x="35" y="251" width="250" height="65"/>
                                 <constraints>
@@ -65,20 +57,30 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naH-Aa-Xra">
+                                <rect key="frame" x="52" y="520" width="216" height="28"/>
+                                <color key="backgroundColor" red="0.86452414772727271" green="0.86452414772727271" blue="0.86452414772727271" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                                <inset key="imageEdgeInsets" minX="14" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Quiero una hamburguesa ya!!!"/>
+                                <connections>
+                                    <action selector="mostrarNuevaHamburguesa" destination="BYZ-38-t0r" eventType="touchUpInside" id="K3t-ZU-Xvg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="naH-Aa-Xra" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5ui-mO-OUX"/>
                             <constraint firstItem="a86-Af-Gg6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H2s-1F-Cz3"/>
                             <constraint firstItem="DZF-KO-LVT" firstAttribute="top" secondItem="a86-Af-Gg6" secondAttribute="bottom" constant="20" id="NgF-22-d5T"/>
                             <constraint firstItem="W6f-1N-Hi1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="P8K-p7-cCP"/>
                             <constraint firstItem="W6f-1N-Hi1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="e4R-Yz-Slh"/>
+                            <constraint firstItem="naH-Aa-Xra" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ept-6K-SFp"/>
                             <constraint firstItem="5jl-5s-n6w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iQO-Sz-uyz"/>
+                            <constraint firstAttribute="bottom" secondItem="naH-Aa-Xra" secondAttribute="bottom" constant="20" symbolic="YES" id="kLY-vp-Bad"/>
                             <constraint firstItem="5jl-5s-n6w" firstAttribute="top" secondItem="DZF-KO-LVT" secondAttribute="bottom" constant="20" id="mMf-m7-meG"/>
                             <constraint firstItem="W6f-1N-Hi1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rGY-ow-frY"/>
                             <constraint firstItem="DZF-KO-LVT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xTA-mH-mUP"/>
                             <constraint firstItem="DZF-KO-LVT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="y3W-p6-HSR"/>
-                            <constraint firstAttribute="bottom" secondItem="naH-Aa-Xra" secondAttribute="bottom" constant="20" symbolic="YES" id="yCJ-is-iGa"/>
                         </constraints>
                     </view>
                     <connections>
@@ -89,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="301" y="345"/>
+            <point key="canvasLocation" x="293" y="385"/>
         </scene>
     </scenes>
 </document>

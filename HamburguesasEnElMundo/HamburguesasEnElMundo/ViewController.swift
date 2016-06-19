@@ -45,10 +45,9 @@ class ViewController: UIViewController {
         paisLabel.text = "Pais: \(pais)"
         hamburguesaLabel.text = "Hamburguesa: \(hamburguesa)"
         precioLabel.text = "Precio: \(precio) $"
-        //OPCIONAL A LA TAREA: Cambiamos el color del fondo y del tilt aleatoriamente
+        //OPCIONAL A LA TAREA: Cambiamos el color del fondo aleatoriamente
         let color = colores.regresaColorAleatorio()
         view.backgroundColor = color
-        view.tintColor = color
         // OPCIONAL A LA TAREA: Por defecto he puesto el alpha de las etiquetas a 0.3, para recalcar que al principio no hay información valida. En cuanto se pulsa el botón, se ponte el alpha de estas estiquetas  a 1.
         paisLabel.alpha=1
         hamburguesaLabel.alpha=1

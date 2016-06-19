@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEEC9C4E1D170972004A1180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC9C4D1D170972004A1180 /* AppDelegate.swift */; };
+		DEEC9C501D170972004A1180 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC9C4F1D170972004A1180 /* ViewController.swift */; };
+		DEEC9C531D170972004A1180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEC9C511D170972004A1180 /* Main.storyboard */; };
+		DEEC9C551D170972004A1180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEC9C541D170972004A1180 /* Assets.xcassets */; };
+		DEEC9C581D170972004A1180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEC9C561D170972004A1180 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEEC9C4A1D170972004A1180 /* HamburguesasEnElMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamburguesasEnElMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEC9C4D1D170972004A1180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEEC9C4F1D170972004A1180 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEEC9C521D170972004A1180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEEC9C541D170972004A1180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEEC9C571D170972004A1180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEEC9C591D170972004A1180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEEC9C471D170972004A1180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEEC9C411D170972004A1180 = {
+			isa = PBXGroup;
+			children = (
+				DEEC9C4C1D170972004A1180 /* HamburguesasEnElMundo */,
+				DEEC9C4B1D170972004A1180 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEEC9C4B1D170972004A1180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEEC9C4A1D170972004A1180 /* HamburguesasEnElMundo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEEC9C4C1D170972004A1180 /* HamburguesasEnElMundo */ = {
+			isa = PBXGroup;
+			children = (
+				DEEC9C4D1D170972004A1180 /* AppDelegate.swift */,
+				DEEC9C4F1D170972004A1180 /* ViewController.swift */,
+				DEEC9C511D170972004A1180 /* Main.storyboard */,
+				DEEC9C541D170972004A1180 /* Assets.xcassets */,
+				DEEC9C561D170972004A1180 /* LaunchScreen.storyboard */,
+				DEEC9C591D170972004A1180 /* Info.plist */,
+			);
+			path = HamburguesasEnElMundo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEEC9C491D170972004A1180 /* HamburguesasEnElMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEC9C5C1D170972004A1180 /* Build configuration list for PBXNativeTarget "HamburguesasEnElMundo" */;
+			buildPhases = (
+				DEEC9C461D170972004A1180 /* Sources */,
+				DEEC9C471D170972004A1180 /* Frameworks */,
+				DEEC9C481D170972004A1180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamburguesasEnElMundo;
+			productName = HamburguesasEnElMundo;
+			productReference = DEEC9C4A1D170972004A1180 /* HamburguesasEnElMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEEC9C421D170972004A1180 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					DEEC9C491D170972004A1180 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DEEC9C451D170972004A1180 /* Build configuration list for PBXProject "HamburguesasEnElMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEEC9C411D170972004A1180;
+			productRefGroup = DEEC9C4B1D170972004A1180 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEEC9C491D170972004A1180 /* HamburguesasEnElMundo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEEC9C481D170972004A1180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEC9C581D170972004A1180 /* LaunchScreen.storyboard in Resources */,
+				DEEC9C551D170972004A1180 /* Assets.xcassets in Resources */,
+				DEEC9C531D170972004A1180 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEEC9C461D170972004A1180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEC9C501D170972004A1180 /* ViewController.swift in Sources */,
+				DEEC9C4E1D170972004A1180 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEEC9C511D170972004A1180 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEC9C521D170972004A1180 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEEC9C561D170972004A1180 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEC9C571D170972004A1180 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEEC9C5A1D170972004A1180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEEC9C5B1D170972004A1180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEEC9C5D1D170972004A1180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HamburguesasEnElMundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adrianrejas.HamburguesasEnElMundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEEC9C5E1D170972004A1180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HamburguesasEnElMundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adrianrejas.HamburguesasEnElMundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEEC9C451D170972004A1180 /* Build configuration list for PBXProject "HamburguesasEnElMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEC9C5A1D170972004A1180 /* Debug */,
+				DEEC9C5B1D170972004A1180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEC9C5C1D170972004A1180 /* Build configuration list for PBXNativeTarget "HamburguesasEnElMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEC9C5D1D170972004A1180 /* Debug */,
+				DEEC9C5E1D170972004A1180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEEC9C421D170972004A1180 /* Project object */;
+}
